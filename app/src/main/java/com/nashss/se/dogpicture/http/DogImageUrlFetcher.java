@@ -9,6 +9,9 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.concurrent.ExecutionException;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 /**
  * This class provides a mechanism for downloading the URL to a random dog image
  * It uses a free dog picture api described here: https://dog.ceo/dog-api/
